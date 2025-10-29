@@ -1,6 +1,6 @@
 # Personal Resume
 
-This is my resume template seen on Overleaf [https://www.overleaf.com/latex/templates/rendercv-engineeringresumes-theme/shwqvsxdgkjy](renderCV's template).
+This is my resume template seen on Overleaf [renderCV's template](https://www.overleaf.com/latex/templates/rendercv-engineeringresumes-theme/shwqvsxdgkjy).
 
 Render a resume from a YAML file.
 
