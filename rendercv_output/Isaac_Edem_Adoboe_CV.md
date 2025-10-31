@@ -1,89 +1,69 @@
 # Isaac Edem Adoboe's CV
 
-- Phone: +1 609 999 9995
-- Email: [john.doe@example.com](mailto:john.doe@example.com)
-- Location: Location
-- LinkedIn: [john.doe](https://linkedin.com/in/john.doe)
-- GitHub: [john.doe](https://github.com/john.doe)
+- Phone: +1 709 853 2427
+- Email: [ikeadoboe1@gmail.com](mailto:ikeadoboe1@gmail.com)
+- Website: [http:ieadoboe.github.io](http://ieadoboe.github.io/)
+- LinkedIn: [isaacedemadoboe](https://linkedin.com/in/isaacedemadoboe)
+- GitHub: [ieadoboe](https://github.com/ieadoboe)
 
-
-# Welcome to RenderCV!
-
-[RenderCV](https://rendercv.com) is a Typst-based CV framework designed for academics and engineers, with Markdown syntax support.
-
-Each section title is arbitrary. Each section contains a list of entries, and there are 7 different entry types to choose from.
 
 # Education
 
-## Stanford University, PhD in Computer Science
+## Memorial University of Newfoundland, Master of Science in Scientific Computing
 
-- Sept 2023 – present
-- Stanford, CA, USA
-- Working on the optimization of autonomous vehicles in urban environments
+- Sept 2025 – Present
+- St. John's, NL
 
-## Boğaziçi University, BS in Computer Engineering
+## Memorial University of Newfoundland, Masters in Data Science; GPA: 4.0; Fellow of the School of Gradrate Studies
 
-- Sept 2018 – June 2022
-- Istanbul, Türkiye
-- GPA: 3.9/4.0, ranked 1st out of 100 students
-- Awards: Best Senior Project, High Honor
+- Sept 2024 – Aug 2025
+- St. John's, NL
+
+## Kwame Nkrumah University of Science and Technology, Bachelor of Science in Electrical Engineering; GPA: 3.55/4.0
+
+- Sept 2017 – Sept 2021
+- Kumasi, Ghana
 
 # Experience
 
-## Company C, Summer Intern
+## Newmont Mining Corporation, Technology Portfolio Support Analyst
 
-- June 2024 – Sept 2024
-- Livingston, LA, USA
-- Developed deep learning models for the detection of gravitational waves in LIGO data
-- Published [3 peer-reviewed research papers](https://example.com) about the project and results
+- Nov 2021 – July 2024
+- Akyem Mine, Ghana
+- **IT Infrastructure Projects:** Coordinated cross-functional teams supporting 8+ major IT deployments including LIMS modernization (laboratory information management system), security system upgrades (Lenel), workforce management implementation (UKG), workstation transformation (hardware refresh), data center upgrades, AV infrastructure (Cisco/MS Teams), and mobile workforce management (iPad mWorkOrder). Participated in OPEX/CAPEX budget planning for technology investments.
+- **Reporting Automation:** Developed automated reports from Lenel security systems data for finance and HR via Python and Power BI, scheduled for delivery at set times and replacing manual data collection processes.
+- **Technical Support:** Achieved 95% first-contact resolution rate providing tier-1 and tier-2 support for 900+ users across enterprise software (MS Office, Webex) and mining applications (MineSight, Deswik, Vulcan, Jigsaw, LIMS).
+- **User Adoption & Training:** Championed user engagement initiatives for IT infrastructure deployments, coordinating between IT/OT teams and operations to ensure seamless technology adoption. Conducted training sessions and developed troubleshooting documentation for technical systems.
 
-## Company B, Summer Intern
+## Envision Digital Signage Network, Front-End Developer
 
-- June 2023 – Sept 2023
-- Ankara, Türkiye
-- Optimized the production line by 15% by implementing a new scheduling algorithm
+- Jan 2021 – Dec 2021
+- Kumasi, Ghana
+- **Web Application:** Developed responsive React application for digital signage management, contributing to 100% sales growth. Reduced page load times by 40% through code splitting and performance optimization.
+- **Component Architecture:** Created reusable component libraries (dashboards, data visualizations, forms) using React Context API and custom hooks.
 
-## Company A, Summer Intern
+## Volta River Authority, Electrical Engineering Intern
 
-- June 2022 – Sept 2022
-- Istanbul, Türkiye
-- Designed an inventory management web application for a warehouse
+- May 2020 – Aug 2020
+- Akosombo, Ghana
+- **High-Voltage Systems:** Assisted maintenance and troubleshooting of 161kV and 330kV transmission lines ensuring continuous power delivery. Participated in preventive maintenance scheduling and fault analysis.
+- **Power Distribution Analysis:** Processed load flow data and voltage profiles for distribution optimization studies, identifying system improvements and efficiency opportunities.
 
 # Projects
 
-## [Example Project](https://example.com)
+## [Surrogate-Based Optimization for Molecular Configurations](https://github.com/arminhatefi/Issac_Farzad_Katie_Armin)
 
-- May 2024 – present
-- Launched an [iOS app](https://example.com) in 09/2024 that currently has 10k+ monthly active users
-- The app is made open-source (3,000+ stars [on GitHub](https://github.com))
+- Spring 2025
 
-## [Teaching on Udemy](https://example.com)
+## [Fine-Tuned CodeGen Model](https://github.com/ieadoboe/ai-code-autocompletion)
 
-- Fall 2023
-- Instructed the "Statistics" course on Udemy (60,000+ students, 200,000+ hours watched)
+- Winter 2025
+
+## [Machine Learning-Based Fault Detection in Induction Motors](https://ieadoboe.github.io/blog/fault-detection-in-induction-motors/motor-faults)
+
+- 2021
 
 # Skills
 
-- Programming: Proficient with Python, C++, and Git; good understanding of Web, app development, and DevOps
-- Mathematics: Good understanding of differential equations, calculus, and linear algebra
-- Languages: English (fluent, TOEFL: 118/120), Turkish (native)
-# Publications
-
-## 3D Finite Element Analysis of No-Insulation Coils ([10.1109/TASC.2023.3340648](https://doi.org/10.1109/TASC.2023.3340648))
-- Jan 2004
-- Frodo Baggins, ***John Doe***, Samwise Gamgee
-
-# Extracurricular Activities
-
-- There are 7 unique entry types in RenderCV: *BulletEntry*, *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*, *PublicationEntry*, and *OneLineEntry*.
-- Each entry type has a different structure and layout. This document demonstrates all of them.
-# Numbered Entries
-
-- This is a numbered entry.
-- This is another numbered entry.
-- This is the third numbered entry.
-# Reversed Numbered Entries
-
-- This is a reversed numbered entry.
-- This is another reversed numbered entry.
-- This is the third reversed numbered entry.
+- Technical skills: Python (NumPy, pandas, matplotlib, scikit-learn, TensorFlow, Keras, PyTorch), R, SQL
+- Software & Tools: Jupyter, RStudio, Git/GitHub, Azure, MS Excel, Power BI

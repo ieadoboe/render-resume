@@ -5,45 +5,45 @@
 #let locale-catalog-page-numbering-style = context { "Isaac Edem Adoboe - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
 #let locale-catalog-last-updated-date-style = "Last updated in Oct 2025"
 #let locale-catalog-language = "en"
-#let design-page-size = "us-letter"
+#let design-page-size = "a4"
 #let design-colors-text = rgb(0, 0, 0)
-#let design-colors-section-titles = rgb(0, 79, 144)
+#let design-colors-section-titles = rgb(0, 0, 0)
 #let design-colors-last-updated-date-and-page-numbering = rgb(128, 128, 128)
-#let design-colors-name = rgb(0, 79, 144)
-#let design-colors-connections = rgb(0, 79, 144)
-#let design-colors-links = rgb(0, 79, 144)
-#let design-section-titles-font-family = "Source Sans 3"
-#let design-section-titles-bold = true
+#let design-colors-name = rgb(0, 0, 0)
+#let design-colors-connections = rgb(0, 0, 0)
+#let design-colors-links = rgb(0, 0, 0)
+#let design-section-titles-font-family = "New Computer Modern"
+#let design-section-titles-bold = false
 #let design-section-titles-line-thickness = 0.5pt
 #let design-section-titles-font-size = 1.4em
-#let design-section-titles-type = "with-partial-line"
-#let design-section-titles-vertical-space-above = 0.5cm
+#let design-section-titles-type = "with-full-line"
+#let design-section-titles-vertical-space-above = 0.3cm
 #let design-section-titles-vertical-space-below = 0.3cm
-#let design-section-titles-small-caps = false
+#let design-section-titles-small-caps = true
 #let design-links-use-external-link-icon = true
-#let design-text-font-size = 10pt
+#let design-text-font-size = 9pt
 #let design-text-leading = 0.6em
-#let design-text-font-family = "Source Sans 3"
-#let design-text-alignment = "justified"
+#let design-text-font-family = "New Computer Modern"
+#let design-text-alignment = "left"
 #let design-text-date-and-location-column-alignment = right
 #let design-header-photo-width = 3.5cm
 #let design-header-use-icons-for-connections = true
-#let design-header-name-font-family = "Source Sans 3"
-#let design-header-name-font-size = 30pt
+#let design-header-name-font-family = "New Computer Modern"
+#let design-header-name-font-size = 14pt
 #let design-header-name-bold = true
 #let design-header-small-caps-for-name = false
-#let design-header-connections-font-family = "Source Sans 3"
-#let design-header-vertical-space-between-name-and-connections = 0.7cm
-#let design-header-vertical-space-between-connections-and-first-section = 0.7cm
+#let design-header-connections-font-family = "New Computer Modern"
+#let design-header-vertical-space-between-name-and-connections = 0.4cm
+#let design-header-vertical-space-between-connections-and-first-section = 0.4cm
 #let design-header-use-icons-for-connections = true
 #let design-header-horizontal-space-between-connections = 0.5cm
 #let design-header-separator-between-connections = ""
 #let design-header-alignment = center
 #let design-highlights-summary-left-margin = 0cm
-#let design-highlights-bullet = "•"
+#let design-highlights-bullet = "◦"
 #let design-highlights-nested-bullet = "-"
 #let design-highlights-top-margin = 0.25cm
-#let design-highlights-left-margin = 0.4cm
+#let design-highlights-left-margin = 0.15cm
 #let design-highlights-vertical-space-between-highlights = 0.25cm
 #let design-highlights-horizontal-space-between-bullet-and-highlights = 0.5em
 #let design-entries-vertical-space-between-entries = 1.2em
@@ -51,13 +51,13 @@
 #let design-entries-allow-page-break-in-entries = true
 #let design-entries-horizontal-space-between-columns = 0.1cm
 #let design-entries-left-and-right-margin = 0.2cm
-#let design-page-top-margin = 2cm
-#let design-page-bottom-margin = 2cm
+#let design-page-top-margin = 1cm
+#let design-page-bottom-margin = 1cm
 #let design-page-left-margin = 2cm
 #let design-page-right-margin = 2cm
-#let design-page-show-last-updated-date = true
+#let design-page-show-last-updated-date = false
 #let design-page-show-page-numbering = true
-#let design-links-underline = false
+#let design-links-underline = true
 #let design-entry-types-education-entry-degree-column-width = 1cm
 #let date = datetime.today()
 
@@ -465,64 +465,91 @@
 
 // Print connections:
 #let connections-list = (
-  [#fa-icon("location-dot", size: 0.9em) #h(0.05cm)Location],
-  [#box(original-link("mailto:john.doe@example.com")[#fa-icon("envelope", size: 0.9em) #h(0.05cm)john.doe\@example.com])],
-  [#box(original-link("tel:+1-609-999-9995")[#fa-icon("phone", size: 0.9em) #h(0.05cm)\(609\) 999-9995])],
-  [#box(original-link("https://linkedin.com/in/john.doe")[#fa-icon("linkedin", size: 0.9em) #h(0.05cm)john.doe])],
-  [#box(original-link("https://github.com/john.doe")[#fa-icon("github", size: 0.9em) #h(0.05cm)john.doe])],
+  [#box(original-link("mailto:ikeadoboe1@gmail.com")[#fa-icon("envelope", size: 0.9em) #h(0.05cm)ikeadoboe1\@gmail.com])],
+  [#box(original-link("tel:+1-709-853-2427")[#fa-icon("phone", size: 0.9em) #h(0.05cm)\(709\) 853-2427])],
+  [#box(original-link("http://ieadoboe.github.io/")[#fa-icon("link", size: 0.9em) #h(0.05cm)ieadoboe.github.io])],
+  [#box(original-link("https://linkedin.com/in/isaacedemadoboe")[#fa-icon("linkedin", size: 0.9em) #h(0.05cm)isaacedemadoboe])],
+  [#box(original-link("https://github.com/ieadoboe")[#fa-icon("github", size: 0.9em) #h(0.05cm)ieadoboe])],
 )
 #connections(connections-list)
 
 
 
-== Welcome to RenderCV!
-
-
-#one-col-entry(
-  content: [#link("https://rendercv.com")[RenderCV] is a Typst-based CV framework designed for academics and engineers, with Markdown syntax support.]
-)
-#v(design-entries-vertical-space-between-entries)
-#one-col-entry(
-  content: [Each section title is arbitrary. Each section contains a list of entries, and there are 7 different entry types to choose from.]
-)
-
-
 == Education
 
 
-// YES DATE, YES DEGREE
-#three-col-entry(
-  left-column-width: 1cm,
-  left-content: [#strong[PhD]],
-  middle-content: [
-    #strong[Stanford University], Computer Science
-    #v(-design-text-leading)
+// YES DATE, NO DEGREE
+#two-col-entry(
+  left-content: [
+    #strong[Memorial University of Newfoundland]
 
-    #v(design-highlights-top-margin);#highlights([Working on the optimization of autonomous vehicles in urban environments],)
+#emph[Master of Science in Scientific Computing]
   ],
   right-content: [
-    Stanford, CA, USA
+    #emph[St. John's, NL]
 
-Sept 2023 – present
+#emph[Sept 2025 – Present]
   ],
+)
+#block(
+  [
+    #set par(spacing: 0pt)
+    
+  ],
+  inset: (
+    left: design-entries-left-and-right-margin,
+    right: design-entries-left-and-right-margin,
+  ),
 )
 
 #v(design-entries-vertical-space-between-entries)
-// YES DATE, YES DEGREE
-#three-col-entry(
-  left-column-width: 1cm,
-  left-content: [#strong[BS]],
-  middle-content: [
-    #strong[Boğaziçi University], Computer Engineering
-    #v(-design-text-leading)
+// YES DATE, NO DEGREE
+#two-col-entry(
+  left-content: [
+    #strong[Memorial University of Newfoundland]
 
-    #v(design-highlights-top-margin);#highlights([GPA: 3.9\/4.0, ranked 1st out of 100 students],[Awards: Best Senior Project, High Honor],)
+#emph[Masters in Data Science; GPA: 4.0; Fellow of the School of Gradrate Studies]
   ],
   right-content: [
-    Istanbul, Türkiye
+    #emph[St. John's, NL]
 
-Sept 2018 – June 2022
+#emph[Sept 2024 – Aug 2025]
   ],
+)
+#block(
+  [
+    #set par(spacing: 0pt)
+    
+  ],
+  inset: (
+    left: design-entries-left-and-right-margin,
+    right: design-entries-left-and-right-margin,
+  ),
+)
+
+#v(design-entries-vertical-space-between-entries)
+// YES DATE, NO DEGREE
+#two-col-entry(
+  left-content: [
+    #strong[Kwame Nkrumah University of Science and Technology]
+
+#emph[Bachelor of Science in Electrical Engineering; GPA: 3.55\/4.0]
+  ],
+  right-content: [
+    #emph[Kumasi, Ghana]
+
+#emph[Sept 2017 – Sept 2021]
+  ],
+)
+#block(
+  [
+    #set par(spacing: 0pt)
+    
+  ],
+  inset: (
+    left: design-entries-left-and-right-margin,
+    right: design-entries-left-and-right-margin,
+  ),
 )
 
 
@@ -532,45 +559,63 @@ Sept 2018 – June 2022
 
 #two-col-entry(
   left-content: [
-    #strong[Company C], Summer Intern
-    #v(-design-text-leading)
+    #strong[Technology Portfolio Support Analyst]
 
-    #v(design-highlights-top-margin);#highlights([Developed deep learning models for the detection of gravitational waves in LIGO data],[Published #link("https://example.com")[3 peer-reviewed research papers] about the project and results],)
+#emph[Newmont Mining Corporation]
   ],
   right-content: [
-    Livingston, LA, USA
+    #emph[Akyem Mine, Ghana]
 
-June 2024 – Sept 2024
+#emph[Nov 2021 – July 2024]
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Promoted from End User Support Analyst \(Aug 2022\) to Technology Portfolio Support Analyst supporting mining operations technology infrastructure and data systems])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([#strong[IT Infrastructure Projects:] Coordinated cross-functional teams supporting 8+ major IT deployments including LIMS modernization \(laboratory information management system\), security system upgrades \(Lenel\), workforce management implementation \(UKG\), workstation transformation \(hardware refresh\), data center upgrades, AV infrastructure \(Cisco\/MS Teams\), and mobile workforce management \(iPad mWorkOrder\). Participated in OPEX\/CAPEX budget planning for technology investments.],[#strong[Reporting Automation:] Developed automated reports from Lenel security systems data for finance and HR via Python and Power BI, scheduled for delivery at set times and replacing manual data collection processes.],[#strong[Technical Support:] Achieved 95\% first-contact resolution rate providing tier-1 and tier-2 support for 900+ users across enterprise software \(MS Office, Webex\) and mining applications \(MineSight, Deswik, Vulcan, Jigsaw, LIMS\).],[#strong[User Adoption & Training:] Championed user engagement initiatives for IT infrastructure deployments, coordinating between IT\/OT teams and operations to ensure seamless technology adoption. Conducted training sessions and developed troubleshooting documentation for technical systems.],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Company B], Summer Intern
-    #v(-design-text-leading)
+    #strong[Front-End Developer]
 
-    #v(design-highlights-top-margin);#highlights([Optimized the production line by 15\% by implementing a new scheduling algorithm],)
+#emph[Envision Digital Signage Network]
   ],
   right-content: [
-    Ankara, Türkiye
+    #emph[Kumasi, Ghana]
 
-June 2023 – Sept 2023
+#emph[Jan 2021 – Dec 2021]
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Part-time web development role during final year of undergraduate studies, leading React-based application transformation])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([#strong[Web Application:] Developed responsive React application for digital signage management, contributing to 100\% sales growth. Reduced page load times by 40\% through code splitting and performance optimization.],[#strong[Component Architecture:] Created reusable component libraries \(dashboards, data visualizations, forms\) using React Context API and custom hooks.],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Company A], Summer Intern
-    #v(-design-text-leading)
+    #strong[Electrical Engineering Intern]
 
-    #v(design-highlights-top-margin);#highlights([Designed an inventory management web application for a warehouse],)
+#emph[Volta River Authority]
   ],
   right-content: [
-    Istanbul, Türkiye
+    #emph[Akosombo, Ghana]
 
-June 2022 – Sept 2022
+#emph[May 2020 – Aug 2020]
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Summer internship supporting high-voltage electrical distribution systems for national power infrastructure])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([#strong[High-Voltage Systems:] Assisted maintenance and troubleshooting of 161kV and 330kV transmission lines ensuring continuous power delivery. Participated in preventive maintenance scheduling and fault analysis.],[#strong[Power Distribution Analysis:] Processed load flow data and voltage profiles for distribution optimization studies, identifying system improvements and efficiency opportunities.],)
   ],
 )
 
@@ -581,32 +626,45 @@ June 2022 – Sept 2022
 
 #two-col-entry(
   left-content: [
-    #link("https://example.com")[#strong[Example Project]]
+    #link("https://github.com/arminhatefi/Issac_Farzad_Katie_Armin")[#strong[Surrogate-Based Optimization for Molecular Configurations]]
   ],
   right-content: [
-    May 2024 – present
+    #emph[Spring 2025]
   ],
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [A web application for writing essays])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Launched an #link("https://example.com")[iOS app] in 09\/2024 that currently has 10k+ monthly active users],[The app is made open-source \(3,000+ stars #link("https://github.com")[on GitHub]\)],)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Developed machine learning surrogates for quantum chemistry calculations in protein-carbohydrate binding. Implemented global optimization algorithm across 24 molecular pairs with 16D feature space.])], column-gutter: 0cm)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #link("https://example.com")[#strong[Teaching on Udemy]]
+    #link("https://github.com/ieadoboe/ai-code-autocompletion")[#strong[Fine-Tuned CodeGen Model]]
   ],
   right-content: [
-    Fall 2023
+    #emph[Winter 2025]
   ],
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Instructed the \"Statistics\" course on Udemy \(60,000+ students, 200,000+ hours watched\)],)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Fine-tuned transformer-based CodeGen-350M on CodeSearchNet Python corpus using HuggingFace Transformers. Optimized training with GPU acceleration and evaluated using BLEU, CodeBLEU metrics for code completion quality.])], column-gutter: 0cm)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #link("https://ieadoboe.github.io/blog/fault-detection-in-induction-motors/motor-faults")[#strong[Machine Learning-Based Fault Detection in Induction Motors]]
+  ],
+  right-content: [
+    #emph[2021]
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Undergraduate thesis developing CNN architecture achieving 61.4\% multi-class accuracy on motor fault classification. Processed motor current signals into time-frequency spectrograms with TensorFlow\/Keras implementation.])], column-gutter: 0cm)
   ],
 )
 
@@ -616,72 +674,11 @@ June 2022 – Sept 2022
 
 
 #one-col-entry(
-  content: [#strong[Programming:] Proficient with Python, C++, and Git; good understanding of Web, app development, and DevOps]
+  content: [#strong[Technical skills:] Python \(NumPy, pandas, matplotlib, scikit-learn, TensorFlow, Keras, PyTorch\), R, SQL]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Mathematics:] Good understanding of differential equations, calculus, and linear algebra]
-)
-#v(design-entries-vertical-space-between-entries)
-#one-col-entry(
-  content: [#strong[Languages:] English \(fluent, TOEFL: 118\/120\), Turkish \(native\)]
+  content: [#strong[Software & Tools:] Jupyter, RStudio, Git\/GitHub, Azure, MS Excel, Power BI]
 )
 
-
-== Publications
-
-
-#two-col-entry(
-  left-content: [
-    #strong[3D Finite Element Analysis of No-Insulation Coils]
-
-  ],
-  right-content: [
-    Jan 2004
-  ],
-)
-#one-col-entry(content:[
-#v(design-highlights-top-margin);Frodo Baggins, #strong[#emph[John Doe]], Samwise Gamgee
-
-#v(design-highlights-top-margin - design-text-leading)#link("https://doi.org/10.1109/TASC.2023.3340648")[10.1109/TASC.2023.3340648]])
-
-
-
-== Extracurricular Activities
-
-
-#one-col-entry(content: [#bullet-entry[There are 7 unique entry types in RenderCV: #emph[BulletEntry], #emph[TextEntry], #emph[EducationEntry], #emph[ExperienceEntry], #emph[NormalEntry], #emph[PublicationEntry], and #emph[OneLineEntry].]])
-#v(design-entries-vertical-space-between-entries)
-#one-col-entry(content: [#bullet-entry[Each entry type has a different structure and layout. This document demonstrates all of them.]])
-
-
-== Numbered Entries
-#one-col-entry(
-  content: [
-
-
-+ This is a numbered entry.
-+ This is another numbered entry.
-+ This is the third numbered entry.
-
-  ],
-)
-
-== Reversed Numbered Entries
-#one-col-entry(
-  content: [
-    #let rev-enum-items = (
-
-
-[This is a reversed numbered entry.],
-[This is another reversed numbered entry.],
-[This is the third reversed numbered entry.],
-
-  )
-  #enum(
-    numbering: n => [#{rev-enum-items.len() + 1 - n}.],
-    ..rev-enum-items,
-  )
-  ],
-)
 

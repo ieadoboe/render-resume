@@ -1,168 +1,174 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.3/schema.json
 cv:
   name: Isaac Edem Adoboe
-  location: Location
-  email: john.doe@example.com
-  phone: +1-609-999-9995
-  website:
+  location: 
+  email: ikeadoboe1@gmail.com
+  phone: +1-709-853-2427
+  website: http://ieadoboe.github.io
   social_networks:
     - network: LinkedIn
-      username: john.doe
+      username: isaacedemadoboe
     - network: GitHub
-      username: john.doe
+      username: ieadoboe
   sections:
-    welcome_to_RenderCV!:
-      - '[RenderCV](https://rendercv.com) is a Typst-based CV framework designed for academics and engineers, with Markdown syntax support.'
-      - Each section title is arbitrary. Each section contains a list of entries, and there are 7 different entry types to choose from.
+    # welcome_to_RenderCV!:
+    #   - '[RenderCV](https://rendercv.com) is a Typst-based CV framework designed for academics and engineers, with Markdown syntax support.'
+    #   - Each section title is arbitrary. Each section contains a list of entries, and there are 7 different entry types to choose from.
     education:
-      - institution: Stanford University
-        area: Computer Science
-        degree: PhD
+      - institution: Memorial University of Newfoundland
+        area: Scientific Computing
+        degree: Master of Science
         grade:
         date:
-        start_date: 2023-09
+        start_date: 2025-09
         end_date: present
-        location: Stanford, CA, USA
+        location: St. John's, NL
         summary:
         highlights:
-          - Working on the optimization of autonomous vehicles in urban environments
-      - institution: Boğaziçi University
-        area: Computer Engineering
-        degree: BS
+      - institution: Memorial University of Newfoundland
+        area: 'Data Science; GPA: 4.0; Fellow of the School of Gradrate Studies'
+        degree: Masters
+        grade: 
+        date:
+        start_date: 2024-09
+        end_date: 2025-08
+        location: St. John's, NL
+        summary:
+        highlights:
+          # - 'GPA: 4.0/4.0'
+          # - 'Awards: Fellow of the School of Gradrate Studies'
+      - institution: Kwame Nkrumah University of Science and Technology
+        area: 'Electrical Engineering; GPA: 3.55/4.0'
+        degree: 'Bachelor of Science'
         grade:
         date:
-        start_date: 2018-09
-        end_date: 2022-06
-        location: Istanbul, Türkiye
+        start_date: 2017-09
+        end_date: 2021-09
+        location: Kumasi, Ghana
         summary:
         highlights:
-          - 'GPA: 3.9/4.0, ranked 1st out of 100 students'
-          - 'Awards: Best Senior Project, High Honor'
+          # - 'GPA: 3.55/4.0'
     experience:
-      - company: Company C
-        position: Summer Intern
-        date:
-        start_date: 2024-06
-        end_date: 2024-09
-        location: Livingston, LA, USA
-        summary:
+      - company: Newmont Mining Corporation
+        position: Technology Portfolio Support Analyst
+        start_date: 2021-11
+        end_date: 2024-07
+        location: Akyem Mine, Ghana
+        summary: Promoted from End User Support Analyst (Aug 2022) to Technology Portfolio Support Analyst supporting mining operations technology infrastructure and data systems
         highlights:
-          - Developed deep learning models for the detection of gravitational waves in LIGO data
-          - Published [3 peer-reviewed research papers](https://example.com) about the project and results
-      - company: Company B
-        position: Summer Intern
-        date:
-        start_date: 2023-06
-        end_date: 2023-09
-        location: Ankara, Türkiye
-        summary:
+          - '**IT Infrastructure Projects:** Coordinated cross-functional teams supporting 8+ major IT deployments including LIMS modernization (laboratory information management system), security system upgrades (Lenel), workforce management implementation (UKG), workstation transformation (hardware refresh), data center upgrades, AV infrastructure (Cisco/MS Teams), and mobile workforce management (iPad mWorkOrder). Participated in OPEX/CAPEX budget planning for technology investments.'
+          - '**Reporting Automation:** Developed automated reports from Lenel security systems data for finance and HR via Python and Power BI, scheduled for delivery at set times and replacing manual data collection processes.'
+          - '**Technical Support:** Achieved 95% first-contact resolution rate providing tier-1 and tier-2 support for 900+ users across enterprise software (MS Office, Webex) and mining applications (MineSight, Deswik, Vulcan, Jigsaw, LIMS).'
+          - '**User Adoption & Training:** Championed user engagement initiatives for IT infrastructure deployments, coordinating between IT/OT teams and operations to ensure seamless technology adoption. Conducted training sessions and developed troubleshooting documentation for technical systems.'
+
+          
+      - company: Envision Digital Signage Network
+        position: Front-End Developer
+        start_date: 2021-01
+        end_date: 2021-12
+        location: Kumasi, Ghana
+        summary: Part-time web development role during final year of undergraduate studies, leading React-based application transformation
         highlights:
-          - Optimized the production line by 15% by implementing a new scheduling algorithm
-      - company: Company A
-        position: Summer Intern
-        date:
-        start_date: 2022-06
-        end_date: 2022-09
-        location: Istanbul, Türkiye
-        summary:
+          - '**Web Application:** Developed responsive React application for digital signage management, contributing to 100% sales growth. Reduced page load times by 40% through code splitting and performance optimization.'
+          - '**Component Architecture:** Created reusable component libraries (dashboards, data visualizations, forms) using React Context API and custom hooks.'
+          
+      - company: Volta River Authority
+        position: Electrical Engineering Intern
+        start_date: 2020-05
+        end_date: 2020-08
+        location: Akosombo, Ghana
+        summary: Summer internship supporting high-voltage electrical distribution systems for national power infrastructure
         highlights:
-          - Designed an inventory management web application for a warehouse
+          - '**High-Voltage Systems:** Assisted maintenance and troubleshooting of 161kV and 330kV transmission lines ensuring continuous power delivery. Participated in preventive maintenance scheduling and fault analysis.'
+          - '**Power Distribution Analysis:** Processed load flow data and voltage profiles for distribution optimization studies, identifying system improvements and efficiency opportunities.'
+    
     projects:
-      - name: '[Example Project](https://example.com)'
-        date:
-        start_date: 2024-05
-        end_date: present
-        location:
-        summary: A web application for writing essays
+      - name: '[Surrogate-Based Optimization for Molecular Configurations](https://github.com/arminhatefi/Issac_Farzad_Katie_Armin)'
+        date: Spring 2025
+        start_date: 2025-01
+        end_date: 2025-08
+        location: 
+        summary: Developed machine learning surrogates for quantum chemistry calculations in protein-carbohydrate binding. Implemented global optimization algorithm across 24 molecular pairs with 16D feature space.
         highlights:
-          - Launched an [iOS app](https://example.com) in 09/2024 that currently has 10k+ monthly active users
-          - The app is made open-source (3,000+ stars [on GitHub](https://github.com))
-      - name: '[Teaching on Udemy](https://example.com)'
-        date: Fall 2023
-        start_date:
-        end_date:
-        location:
-        summary:
+          # - '**Surrogate Modeling:** Developed 5 surrogate models (Random Forest, XGBoost, MERF, MLP, SVR) achieving 0.5 kcal/mol RMSE on SAPT energy predictions, reducing computational cost by 1000x compared to direct quantum chemistry calculations while maintaining chemical accuracy.'
+          # - '**Global Optimization:** Implemented 3 optimization algorithms (L-BFGS-B, Differential Evolution, Bayesian Optimization) in factorial experimental design across 24 molecular pairs. Conducted 3,600 optimization experiments (3.6M surrogate evaluations) comparing surrogate-optimizer performance.'
+          # - '**Feature Engineering:** Applied preprocessing pipeline for 16D mixed continuous-categorical input space (6 geometric features + 10 binary encoding). Implemented one-hot encoding for categorical variables and standardization for continuous features to improve model convergence.'
+      - name: '[Fine-Tuned CodeGen Model](https://github.com/ieadoboe/ai-code-autocompletion)'
+        date: Winter 2025
+        start_date: 2025-01
+        end_date: 2025-04
+        location: 
+        summary: Fine-tuned transformer-based CodeGen-350M on CodeSearchNet Python corpus using HuggingFace Transformers. Optimized training with GPU acceleration and evaluated using BLEU, CodeBLEU metrics for code completion quality.
         highlights:
-          - Instructed the "Statistics" course on Udemy (60,000+ students, 200,000+ hours watched)
+          # - '**Model Fine-Tuning:** Fine-tuned transformer-based CodeGen-350M model on CodeSearchNet Python corpus using HuggingFace Transformers. Developed preprocessing pipeline handling programming language syntax and abstract syntax tree (AST) structure for improved code understanding.'
+          # - '**Training Optimization:** Optimized training hyperparameters (learning rate scheduling, batch size, warmup steps) using GPU acceleration. Implemented gradient accumulation and mixed-precision training to handle large batch sizes within memory constraints.'
+          # - '**Evaluation Framework:** Implemented comprehensive evaluation metrics (BLEU, CodeBLEU, exact-match accuracy) to quantify code completion quality. Conducted ablation studies comparing different model sizes and training configurations.'
+      - name: '[Machine Learning-Based Fault Detection in Induction Motors](https://ieadoboe.github.io/blog/fault-detection-in-induction-motors/motor-faults)'
+        date: '2021'
+        start_date: 2021-01
+        end_date: 2021-08
+        location:
+        summary: Undergraduate thesis developing CNN architecture achieving 61.4% multi-class accuracy on motor fault classification. Processed motor current signals into time-frequency spectrograms with TensorFlow/Keras implementation.
+        highlights:
+          # - '**Deep Learning Architecture:** Developed convolutional neural network achieving 61.4% multi-class classification accuracy on motor fault dataset (bearing faults, rotor faults, stator faults). Trained for 20 epochs using TensorFlow/Keras with Adam optimizer.'
+          # - '**Signal Processing:** Processed motor current signals into 2D time-frequency spectrograms using Fast Fourier Transform (FFT) and short-time Fourier transform (STFT). Applied data augmentation (rotation, scaling, noise injection) to improve model generalization with limited training samples.'
+          # - '**Research Delivery:** Presented thesis findings to faculty evaluation panel, demonstrating technical communication skills. Documented complete methodology, experimental results, and recommendations for industrial deployment of fault detection system.'
     skills:
-      - label: Programming
-        details: Proficient with Python, C++, and Git; good understanding of Web, app development, and DevOps
-      - label: Mathematics
-        details: Good understanding of differential equations, calculus, and linear algebra
-      - label: Languages
-        details: 'English (fluent, TOEFL: 118/120), Turkish (native)'
-    publications:
-      - title: 3D Finite Element Analysis of No-Insulation Coils
-        authors:
-          - Frodo Baggins
-          - '***John Doe***'
-          - Samwise Gamgee
-        doi: 10.1109/TASC.2023.3340648
-        url:
-        journal:
-        date: 2004-01
-    extracurricular_activities:
-      - bullet: 'There are 7 unique entry types in RenderCV: *BulletEntry*, *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*, *PublicationEntry*, and *OneLineEntry*.'
-      - bullet: Each entry type has a different structure and layout. This document demonstrates all of them.
-    numbered_entries:
-      - number: This is a numbered entry.
-      - number: This is another numbered entry.
-      - number: This is the third numbered entry.
-    reversed_numbered_entries:
-      - reversed_number: This is a reversed numbered entry.
-      - reversed_number: This is another reversed numbered entry.
-      - reversed_number: This is the third reversed numbered entry.
+      - label: Technical skills
+        details: Python (NumPy, pandas, matplotlib, scikit-learn, TensorFlow, Keras, PyTorch), R, SQL, Bash
+      - label: Software & Tools
+        details: Jupyter, RStudio, Git/GitHub, Azure, MS Excel, Power BI
+
   sort_entries: none
 design:
-  theme: classic
+  theme: sb2nov
   page:
-    size: us-letter
-    top_margin: 2cm
-    bottom_margin: 2cm
+    size: a4 # us-letter (another option)
+    top_margin: 1cm
+    bottom_margin: 1cm
     left_margin: 2cm
     right_margin: 2cm
     show_page_numbering: true
-    show_last_updated_date: true
+    show_last_updated_date: false
   colors:
     text: rgb(0, 0, 0)
-    name: rgb(0, 79, 144)
-    connections: rgb(0, 79, 144)
-    section_titles: rgb(0, 79, 144)
-    links: rgb(0, 79, 144)
+    name: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 0, 0)
     last_updated_date_and_page_numbering: rgb(128, 128, 128)
   text:
-    font_family: Source Sans 3
-    font_size: 10pt
+    font_family: New Computer Modern
+    font_size: 9pt
     leading: 0.6em
-    alignment: justified
+    alignment: left
     date_and_location_column_alignment: right
   links:
-    underline: false
+    underline: true
     use_external_link_icon: true
   header:
-    name_font_family: Source Sans 3
-    name_font_size: 30pt
+    name_font_family: New Computer Modern
+    name_font_size: 14pt
     name_bold: true
     small_caps_for_name: false
     photo_width: 3.5cm
-    vertical_space_between_name_and_connections: 0.7cm
-    vertical_space_between_connections_and_first_section: 0.7cm
+    vertical_space_between_name_and_connections: 0.4cm
+    vertical_space_between_connections_and_first_section: 0.4cm
     horizontal_space_between_connections: 0.5cm
-    connections_font_family: Source Sans 3
+    connections_font_family: New Computer Modern
     separator_between_connections: ''
     use_icons_for_connections: true
     use_urls_as_placeholders_for_connections: false
     make_connections_links: true
     alignment: center
   section_titles:
-    type: with-partial-line
-    font_family: Source Sans 3
+    type: with-full-line
+    font_family: New Computer Modern
     font_size: 1.4em
-    bold: true
-    small_caps: false
+    bold: false
+    small_caps: true
     line_thickness: 0.5pt
-    vertical_space_above: 0.5cm
+    vertical_space_above: 0.3cm
     vertical_space_below: 0.3cm
   entries:
     date_and_location_width: 4.15cm
@@ -174,10 +180,10 @@ design:
     short_second_row: false
     show_time_spans_in: []
   highlights:
-    bullet: •
+    bullet: ◦
     nested_bullet: '-'
     top_margin: 0.25cm
-    left_margin: 0.4cm
+    left_margin: 0.15cm
     vertical_space_between_highlights: 0.25cm
     horizontal_space_between_bullet_and_highlight: 0.5em
     summary_left_margin: 0cm
@@ -185,31 +191,35 @@ design:
     one_line_entry:
       template: '**LABEL:** DETAILS'
     education_entry:
-      main_column_first_row_template: '**INSTITUTION**, AREA'
-      degree_column_template: '**DEGREE**'
+      main_column_first_row_template: |-
+        **INSTITUTION**
+        *DEGREE in AREA*
+      degree_column_template:
       degree_column_width: 1cm
       main_column_second_row_template: |-
         SUMMARY
         HIGHLIGHTS
       date_and_location_column_template: |-
-        LOCATION
-        DATE
+        *LOCATION*
+        *DATE*
     normal_entry:
       main_column_first_row_template: '**NAME**'
       main_column_second_row_template: |-
         SUMMARY
         HIGHLIGHTS
       date_and_location_column_template: |-
-        LOCATION
-        DATE
+        *LOCATION*
+        *DATE*
     experience_entry:
-      main_column_first_row_template: '**COMPANY**, POSITION'
+      main_column_first_row_template: |-
+        **POSITION**
+        *COMPANY*
       main_column_second_row_template: |-
         SUMMARY
         HIGHLIGHTS
       date_and_location_column_template: |-
-        LOCATION
-        DATE
+        *LOCATION*
+        *DATE*
     publication_entry:
       main_column_first_row_template: '**TITLE**'
       main_column_second_row_template: |-
@@ -232,7 +242,7 @@ locale:
   months: months
   year: year
   years: years
-  present: present
+  present: Present
   to: –
   abbreviations_for_months:
     - Jan
@@ -264,3 +274,6 @@ rendercv_settings:
   date: '2025-10-28'
   bold_keywords: []
   sort_entries: none
+  render_command:
+    dont_generate_png: true 
+    dont_generate_html: true 
