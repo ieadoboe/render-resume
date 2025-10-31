@@ -30,10 +30,8 @@
 
 - Nov 2021 – July 2024
 - Akyem Mine, Ghana
-- **IT Infrastructure Projects:** Coordinated cross-functional teams supporting 8+ major IT deployments including LIMS modernization (laboratory information management system), security system upgrades (Lenel), workforce management implementation (UKG), workstation transformation (hardware refresh), data center upgrades, AV infrastructure (Cisco/MS Teams), and mobile workforce management (iPad mWorkOrder). Participated in OPEX/CAPEX budget planning for technology investments.
-- **Reporting Automation:** Developed automated reports from Lenel security systems data for finance and HR via Python and Power BI, scheduled for delivery at set times and replacing manual data collection processes.
-- **Technical Support:** Achieved 95% first-contact resolution rate providing tier-1 and tier-2 support for 900+ users across enterprise software (MS Office, Webex) and mining applications (MineSight, Deswik, Vulcan, Jigsaw, LIMS).
-- **User Adoption & Training:** Championed user engagement initiatives for IT infrastructure deployments, coordinating between IT/OT teams and operations to ensure seamless technology adoption. Conducted training sessions and developed troubleshooting documentation for technical systems.
+- **Data Automation & Analytics:** Built Python-based reporting pipeline automating Lenel security system data extraction and transformation for finance/HR stakeholders (Power BI dashboards). Replaced manual processes with scheduled delivery reducing turnaround from days to hours.
+- **Technical Operations Support:** Led technical support for 900+ users across enterprise and mining-specific software (MineSight, Deswik, LIMS), achieving 95% first-contact resolution. Coordinated deployment of 8+ major IT infrastructure projects including LIMS modernization and workforce management systems.
 
 ## Envision Digital Signage Network, Front-End Developer
 
@@ -65,5 +63,5 @@
 
 # Skills
 
-- Technical skills: Python (NumPy, pandas, matplotlib, scikit-learn, TensorFlow, Keras, PyTorch), R, SQL
+- Programming: Python (NumPy, pandas, matplotlib, scikit-learn, TensorFlow, Keras, PyTorch), R, SQL, Bash
 - Software & Tools: Jupyter, RStudio, Git/GitHub, Azure, MS Excel, Power BI

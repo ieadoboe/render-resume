@@ -5,7 +5,7 @@
 #let locale-catalog-page-numbering-style = context { "Isaac Edem Adoboe - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
 #let locale-catalog-last-updated-date-style = "Last updated in Oct 2025"
 #let locale-catalog-language = "en"
-#let design-page-size = "a4"
+#let design-page-size = "us-letter"
 #let design-colors-text = rgb(0, 0, 0)
 #let design-colors-section-titles = rgb(0, 0, 0)
 #let design-colors-last-updated-date-and-page-numbering = rgb(128, 128, 128)
@@ -51,10 +51,10 @@
 #let design-entries-allow-page-break-in-entries = true
 #let design-entries-horizontal-space-between-columns = 0.1cm
 #let design-entries-left-and-right-margin = 0.2cm
-#let design-page-top-margin = 1cm
-#let design-page-bottom-margin = 1cm
-#let design-page-left-margin = 2cm
-#let design-page-right-margin = 2cm
+#let design-page-top-margin = 1.5cm
+#let design-page-bottom-margin = 1.5cm
+#let design-page-left-margin = 1.5cm
+#let design-page-right-margin = 1.5cm
 #let design-page-show-last-updated-date = false
 #let design-page-show-page-numbering = true
 #let design-links-underline = true
@@ -494,7 +494,7 @@
 #block(
   [
     #set par(spacing: 0pt)
-    
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Continuing into thesis-based Scientific Computing masters following coursework-intensive Data Science masters.])], column-gutter: 0cm)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -573,7 +573,7 @@
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Promoted from End User Support Analyst \(Aug 2022\) to Technology Portfolio Support Analyst supporting mining operations technology infrastructure and data systems])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([#strong[IT Infrastructure Projects:] Coordinated cross-functional teams supporting 8+ major IT deployments including LIMS modernization \(laboratory information management system\), security system upgrades \(Lenel\), workforce management implementation \(UKG\), workstation transformation \(hardware refresh\), data center upgrades, AV infrastructure \(Cisco\/MS Teams\), and mobile workforce management \(iPad mWorkOrder\). Participated in OPEX\/CAPEX budget planning for technology investments.],[#strong[Reporting Automation:] Developed automated reports from Lenel security systems data for finance and HR via Python and Power BI, scheduled for delivery at set times and replacing manual data collection processes.],[#strong[Technical Support:] Achieved 95\% first-contact resolution rate providing tier-1 and tier-2 support for 900+ users across enterprise software \(MS Office, Webex\) and mining applications \(MineSight, Deswik, Vulcan, Jigsaw, LIMS\).],[#strong[User Adoption & Training:] Championed user engagement initiatives for IT infrastructure deployments, coordinating between IT\/OT teams and operations to ensure seamless technology adoption. Conducted training sessions and developed troubleshooting documentation for technical systems.],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([#strong[Data Automation & Analytics:] Built Python-based reporting pipeline automating Lenel security system data extraction and transformation for finance\/HR stakeholders \(Power BI dashboards\). Replaced manual processes with scheduled delivery reducing turnaround from days to hours.],[#strong[Technical Operations Support:] Led technical support for 900+ users across enterprise and mining-specific software \(MineSight, Deswik, LIMS\), achieving 95\% first-contact resolution. Coordinated deployment of 8+ major IT infrastructure projects including LIMS modernization and workforce management systems.],)
   ],
 )
 
@@ -674,7 +674,7 @@
 
 
 #one-col-entry(
-  content: [#strong[Technical skills:] Python \(NumPy, pandas, matplotlib, scikit-learn, TensorFlow, Keras, PyTorch\), R, SQL]
+  content: [#strong[Programming:] Python \(NumPy, pandas, matplotlib, scikit-learn, TensorFlow, Keras, PyTorch\), R, SQL, Bash]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(

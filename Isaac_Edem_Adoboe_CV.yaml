@@ -23,7 +23,7 @@ cv:
         start_date: 2025-09
         end_date: present
         location: St. John's, NL
-        summary:
+        summary: 'Continuing into thesis-based Scientific Computing masters following coursework-intensive Data Science masters.'
         highlights:
       - institution: Memorial University of Newfoundland
         area: 'Data Science; GPA: 4.0; Fellow of the School of Gradrate Studies'
@@ -56,10 +56,14 @@ cv:
         location: Akyem Mine, Ghana
         summary: Promoted from End User Support Analyst (Aug 2022) to Technology Portfolio Support Analyst supporting mining operations technology infrastructure and data systems
         highlights:
-          - '**IT Infrastructure Projects:** Coordinated cross-functional teams supporting 8+ major IT deployments including LIMS modernization (laboratory information management system), security system upgrades (Lenel), workforce management implementation (UKG), workstation transformation (hardware refresh), data center upgrades, AV infrastructure (Cisco/MS Teams), and mobile workforce management (iPad mWorkOrder). Participated in OPEX/CAPEX budget planning for technology investments.'
-          - '**Reporting Automation:** Developed automated reports from Lenel security systems data for finance and HR via Python and Power BI, scheduled for delivery at set times and replacing manual data collection processes.'
-          - '**Technical Support:** Achieved 95% first-contact resolution rate providing tier-1 and tier-2 support for 900+ users across enterprise software (MS Office, Webex) and mining applications (MineSight, Deswik, Vulcan, Jigsaw, LIMS).'
-          - '**User Adoption & Training:** Championed user engagement initiatives for IT infrastructure deployments, coordinating between IT/OT teams and operations to ensure seamless technology adoption. Conducted training sessions and developed troubleshooting documentation for technical systems.'
+          - '**Data Automation & Analytics:** Built Python-based reporting pipeline automating Lenel security system data extraction and transformation for finance/HR stakeholders (Power BI dashboards). Replaced manual processes with scheduled delivery reducing turnaround from days to hours.'
+          - '**Technical Operations Support:** Led technical support for 900+ users across enterprise and mining-specific software (MineSight, Deswik, LIMS), achieving 95% first-contact resolution. Coordinated deployment of 8+ major IT infrastructure projects including LIMS modernization and workforce management systems.'
+
+          ####### For IT Project Manager Roles
+          # - '**IT Infrastructure Projects:** Coordinated cross-functional teams supporting 8+ major IT deployments including LIMS modernization (laboratory information management system), security system upgrades (Lenel), workforce management implementation (UKG), workstation transformation (hardware refresh), data center upgrades, AV infrastructure (Cisco/MS Teams), and mobile workforce management (iPad mWorkOrder). Participated in OPEX/CAPEX budget planning for technology investments.'
+          # - '**Reporting Automation:** Developed automated reports from Lenel security systems data for finance and HR via Python and Power BI, scheduled for delivery at set times and replacing manual data collection processes.'
+          # - '**Technical Support:** Achieved 95% first-contact resolution rate providing tier-1 and tier-2 support for 900+ users across enterprise software (MS Office, Webex) and mining applications (MineSight, Deswik, Vulcan, Jigsaw, LIMS).'
+          # - '**User Adoption & Training:** Championed user engagement initiatives for IT infrastructure deployments, coordinating between IT/OT teams and operations to ensure seamless technology adoption. Conducted training sessions and developed troubleshooting documentation for technical systems.'
 
           
       - company: Envision Digital Signage Network
@@ -114,7 +118,7 @@ cv:
           # - '**Signal Processing:** Processed motor current signals into 2D time-frequency spectrograms using Fast Fourier Transform (FFT) and short-time Fourier transform (STFT). Applied data augmentation (rotation, scaling, noise injection) to improve model generalization with limited training samples.'
           # - '**Research Delivery:** Presented thesis findings to faculty evaluation panel, demonstrating technical communication skills. Documented complete methodology, experimental results, and recommendations for industrial deployment of fault detection system.'
     skills:
-      - label: Technical skills
+      - label: Programming
         details: Python (NumPy, pandas, matplotlib, scikit-learn, TensorFlow, Keras, PyTorch), R, SQL, Bash
       - label: Software & Tools
         details: Jupyter, RStudio, Git/GitHub, Azure, MS Excel, Power BI
@@ -123,11 +127,12 @@ cv:
 design:
   theme: sb2nov
   page:
-    size: a4 # us-letter (another option)
-    top_margin: 1cm
-    bottom_margin: 1cm
-    left_margin: 2cm
-    right_margin: 2cm
+    # size: a4
+    size: us-letter
+    top_margin: 1.5cm
+    bottom_margin: 1.5cm
+    left_margin: 1.5cm
+    right_margin: 1.5cm
     show_page_numbering: true
     show_last_updated_date: false
   colors:
