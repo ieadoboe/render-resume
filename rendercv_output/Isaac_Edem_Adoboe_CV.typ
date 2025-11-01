@@ -486,9 +486,9 @@
 #emph[Master of Science in Scientific Computing]
   ],
   right-content: [
-    #emph[St. John's, NL]
+    #emph[Sept 2025 – Present]
 
-#emph[Sept 2025 – Present]
+#emph[St. John's, NL]
   ],
 )
 #block(
@@ -511,9 +511,9 @@
 #emph[Masters in Data Science; GPA: 4.0; Fellow of the School of Gradrate Studies]
   ],
   right-content: [
-    #emph[St. John's, NL]
+    #emph[Sept 2024 – Aug 2025]
 
-#emph[Sept 2024 – Aug 2025]
+#emph[St. John's, NL]
   ],
 )
 #block(
@@ -536,9 +536,9 @@
 #emph[Bachelor of Science in Electrical Engineering; GPA: 3.55\/4.0]
   ],
   right-content: [
-    #emph[Kumasi, Ghana]
+    #emph[Sept 2017 – Sept 2021]
 
-#emph[Sept 2017 – Sept 2021]
+#emph[Kumasi, Ghana]
   ],
 )
 #block(
@@ -564,9 +564,9 @@
 #emph[Newmont Mining Corporation]
   ],
   right-content: [
-    #emph[Akyem Mine, Ghana]
+    #emph[Nov 2021 – July 2024]
 
-#emph[Nov 2021 – July 2024]
+#emph[Akyem Mine, Ghana]
   ],
 )
 #one-col-entry(
@@ -585,9 +585,9 @@
 #emph[Envision Digital Signage Network]
   ],
   right-content: [
-    #emph[Kumasi, Ghana]
+    #emph[Jan 2021 – Dec 2021]
 
-#emph[Jan 2021 – Dec 2021]
+#emph[Kumasi, Ghana]
   ],
 )
 #one-col-entry(
@@ -606,9 +606,9 @@
 #emph[Volta River Authority]
   ],
   right-content: [
-    #emph[Akosombo, Ghana]
+    #emph[May 2020 – Aug 2020]
 
-#emph[May 2020 – Aug 2020]
+#emph[Akosombo, Ghana]
   ],
 )
 #one-col-entry(

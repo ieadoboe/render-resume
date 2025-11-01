@@ -205,8 +205,8 @@ design:
         SUMMARY
         HIGHLIGHTS
       date_and_location_column_template: |-
-        *LOCATION*
         *DATE*
+        *LOCATION*
     normal_entry:
       main_column_first_row_template: '**NAME**'
       main_column_second_row_template: |-
@@ -223,8 +223,8 @@ design:
         SUMMARY
         HIGHLIGHTS
       date_and_location_column_template: |-
-        *LOCATION*
         *DATE*
+        *LOCATION*
     publication_entry:
       main_column_first_row_template: '**TITLE**'
       main_column_second_row_template: |-
