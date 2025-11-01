@@ -131,8 +131,8 @@ design:
     size: us-letter
     top_margin: 1.5cm
     bottom_margin: 1.5cm
-    left_margin: 1.5cm
-    right_margin: 1.5cm
+    left_margin: 2cm
+    right_margin: 2cm
     show_page_numbering: true
     show_last_updated_date: false
   colors:
@@ -280,5 +280,5 @@ rendercv_settings:
   bold_keywords: []
   sort_entries: none
   render_command:
-    dont_generate_png: true 
+    dont_generate_png: false 
     dont_generate_html: true 
